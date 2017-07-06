@@ -1,0 +1,45 @@
+﻿@model CarDealership.Models.AdminAddModelViewModel
+
+@{
+    ViewBag.Title = "Models";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <h2>Models</h2>
+    <br />
+    <div class="box">
+        @using (Html.BeginForm("Models", "Admin", FormMethod.Post))
+        {
+            <span>
+                @Html.LabelFor(m => m.NewModel.Name, new { @style = "padding-left:2%;padding-right:2%" })
+                @Html.TextBoxFor(m => m.NewModel.Name, new { @style = "padding-right:2%" })
+                <label style="padding-right:2%;">Make</label>
+                <select>
+                    <option value="Ford">Ford</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Chrysler">Chrysler</option>
+                    <option value="Honda">Honda</option>
+                </select>
+                <input type="submit" style="margin-left:2%" value="Save" />
+            </span>
+        }
+    </div>
+    <br />
+    <table class="table table-bordered table-striped table-responsive">
+        <tr>
+            <th>
+                Models
+            </th>
+        </tr>
+
+        @foreach (var item in Model.AllModels)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

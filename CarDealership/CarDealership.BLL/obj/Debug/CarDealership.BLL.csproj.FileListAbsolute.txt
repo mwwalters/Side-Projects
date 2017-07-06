@@ -1,0 +1,9 @@
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.BLL\bin\Debug\CarDealership.BLL.dll
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.BLL\bin\Debug\CarDealership.BLL.pdb
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.BLL\bin\Debug\CarDealership.Data.dll
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.BLL\bin\Debug\CarDealership.Models.dll
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.BLL\bin\Debug\CarDealership.Data.pdb
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.BLL\bin\Debug\CarDealership.Models.pdb
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.BLL\obj\Debug\CarDealership.BLL.csprojResolveAssemblyReference.cache
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.BLL\obj\Debug\CarDealership.BLL.dll
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.BLL\obj\Debug\CarDealership.BLL.pdb

@@ -1,0 +1,5 @@
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.Models\bin\Debug\CarDealership.Models.dll
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.Models\bin\Debug\CarDealership.Models.pdb
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.Models\obj\Debug\CarDealership.Models.csprojResolveAssemblyReference.cache
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.Models\obj\Debug\CarDealership.Models.dll
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\CarDealership\CarDealership.Models\obj\Debug\CarDealership.Models.pdb

@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Used";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Used Inventory</h1>
+
+<div class="container">
+    <!--Error messages-->
+    <div id="errorMessages"></div>
+    <div id="searchBoxArea">
+        @{
+            Html.RenderPartial("_UsedSearchBox");
+        }
+    </div>
+    <h3>Search Results</h3>
+    <!-- Hidden div that recieves search results -->
+    <div id="searchDiv" class="hidden"></div>
+    <div id="contentTiles">
+        @{
+            Html.RenderPartial("_UsedSearchResult");
+        }
+    </div>
+</div>
+
+

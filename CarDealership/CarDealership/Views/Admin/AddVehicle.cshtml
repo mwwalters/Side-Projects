@@ -1,0 +1,104 @@
+﻿@model CarDealership.Models.AdminAddVehicleViewModel
+@{
+    ViewBag.Title = "AddVehicle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>AddVehicle</h2>
+<br />
+<div class="container">
+    <div class="col-md-12">
+
+        @using (Html.BeginForm("AddVehicle", "Admin", FormMethod.Post))
+        {
+            <div class="row">
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.Make)
+                    <br />
+                    @Html.DropDownListFor(m => m.NewVehicle.Make, Model.AllMakes.MakesSelectList, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.Model)
+                    <br />
+                    @Html.DropDownListFor(m => m.NewVehicle.Model, Model.AllModels.ModelsSelectList, new { @class = "form-control" })
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.IsNew)
+                    <br />
+                    <select id="NewVehicle_IsNew" name="NewVehicle.IsNew" class="form-control">
+                        <option value="true">New</option>
+                        <option value="false">Used</option>
+                    </select>
+                </div>
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.BodyStyle)
+                    <br />
+                    @Html.DropDownListFor(m => m.NewVehicle.BodyStyle, Model.AllBodyStyles.BodyStyleSelectList, new { @class = "form-control" })
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.Year)
+                    <br />
+                    @Html.TextBoxFor(m => m.NewVehicle.Year, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.Trans)
+                    <br />
+                    @Html.DropDownListFor(m => m.NewVehicle.Trans, Model.AllTransmissions.TransmissionSelectList, new { @class = "form-control" })
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.Color)
+                    <br />
+                    @Html.DropDownListFor(m => m.NewVehicle.Color, Model.AllColors.ColorSelectList, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.Interior)
+                    <br />
+                    @Html.DropDownListFor(m => m.NewVehicle.Interior, Model.AllInteriors.InteriorSelectList, new { @class = "form-control" })
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.Mileage)
+                    <br />
+                    @Html.TextBoxFor(m => m.NewVehicle.Mileage, new { @class = "form-control" })
+                </div>
+                <div class="col-md-3 form-group">
+                    @Html.LabelFor(m => m.NewVehicle.VinNumber)
+                    <br />
+                    @Html.TextBoxFor(m => m.NewVehicle.VinNumber, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    @Html.LabelFor(m=>m.NewVehicle.Description)
+                    <br />
+                    @Html.TextAreaFor(m=>m.NewVehicle.Description, new { @class="form-control", @style= "min-width:100%; min-height:40%;",  @rows="8" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 form-group">
+                    @Html.LabelFor(m=>m.NewVehicle.Image)
+                    <input type="file" name="NewVehicle.Image" id="NewVehicle_Image" class="form-control"/>
+                    <br />
+                    @Html.LabelFor(m=>m.NewVehicle.IsFeatured)
+                    @Html.CheckBoxFor(m=>m.NewVehicle.IsFeatured)
+                    @Html.HiddenFor(m => m.NewVehicle.InStock)
+                    <br />
+                    <input type="submit" value="Save" />
+                </div>
+            </div>
+
+        }
+
+    </div>
+</div>

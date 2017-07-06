@@ -1,0 +1,18 @@
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\coin flipper\coin flipper\bin\Debug\coin flipper.exe.config
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\coin flipper\coin flipper\bin\Debug\coin flipper.exe
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\coin flipper\coin flipper\bin\Debug\coin flipper.pdb
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\coin flipper\coin flipper\obj\Debug\coin flipper.csprojResolveAssemblyReference.cache
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\coin flipper\coin flipper\obj\Debug\coin flipper.exe
+C:\Users\matth\Desktop\repos\matthew-walters-individual-work\coin flipper\coin flipper\obj\Debug\coin flipper.pdb
+C:\Users\matth\Desktop\coin flipper\coin flipper\bin\Debug\coin flipper.exe.config
+C:\Users\matth\Desktop\coin flipper\coin flipper\obj\Debug\coin flipper.exe
+C:\Users\matth\Desktop\coin flipper\coin flipper\obj\Debug\coin flipper.pdb
+C:\Users\matth\Desktop\coin flipper\coin flipper\bin\Debug\coin flipper.exe
+C:\Users\matth\Desktop\coin flipper\coin flipper\bin\Debug\coin flipper.pdb
+C:\Users\matth\Desktop\coin flipper\coin flipper\obj\Debug\coin flipper.csprojResolveAssemblyReference.cache
+C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\bin\Debug\coin flipper.exe.config
+C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\obj\Debug\coin flipper.exe
+C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\obj\Debug\coin flipper.pdb
+C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\bin\Debug\coin flipper.exe
+C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\bin\Debug\coin flipper.pdb
+C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\obj\Debug\coin flipper.csprojResolveAssemblyReference.cache
