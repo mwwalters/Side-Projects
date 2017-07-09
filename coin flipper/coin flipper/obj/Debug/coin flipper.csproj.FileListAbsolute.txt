@@ -16,3 +16,6 @@ C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\obj\Debug\coin fl
 C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\bin\Debug\coin flipper.exe
 C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\bin\Debug\coin flipper.pdb
 C:\Users\matth\Desktop\Side Projects\coin flipper\coin flipper\obj\Debug\coin flipper.csprojResolveAssemblyReference.cache
+C:\Users\matth\Desktop\Side-Projects\coin flipper\coin flipper\bin\Debug\coin flipper.exe.config
+C:\Users\matth\Desktop\Side-Projects\coin flipper\coin flipper\obj\Debug\coin flipper.exe
+C:\Users\matth\Desktop\Side-Projects\coin flipper\coin flipper\obj\Debug\coin flipper.pdb

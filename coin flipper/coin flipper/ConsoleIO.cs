@@ -43,7 +43,7 @@ namespace coin_flipper
             Console.WriteLine("----------------------------------------------------");
             Console.WriteLine("\tWelcome to DieRoller!");
             Console.WriteLine("----------------------------------------------------");
-            Console.WriteLine("\tPlease select from the follwing");
+            Console.WriteLine("\tPlease select from the following");
             Console.WriteLine("----------------------------------------------------");
             Console.WriteLine("\t1. Roll dice");
             Console.WriteLine("\t2. Flip coins");
